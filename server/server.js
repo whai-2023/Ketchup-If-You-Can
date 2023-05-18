@@ -1,7 +1,7 @@
 const express = require('express')
 const hbs = require('express-handlebars')
 const fs = require('node:fs/promises')
-const router = express.Router()
+// const router = express.Router()
 
 const server = express()
 
@@ -25,7 +25,7 @@ server.get('/', (req, res) => {
       res.render('home', data)
     })
     .catch((err) => {
-      res.sendStatus(500)
+      console.log(err)
     })
 })
 
