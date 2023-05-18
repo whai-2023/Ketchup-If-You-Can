@@ -29,4 +29,6 @@ server.get('/', (req, res) => {
     })
 })
 
+// need to make a route to profile page
+
 module.exports = server
