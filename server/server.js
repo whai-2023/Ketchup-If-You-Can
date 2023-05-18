@@ -1,6 +1,7 @@
 const express = require('express')
 const hbs = require('express-handlebars')
 const fs = require('node:fs/promises')
+const path = require('path')
 // const router = express.Router()
 
 const server = express()
@@ -14,6 +15,9 @@ server.use(express.urlencoded({ extended: false }))
 server.engine('hbs', hbs.engine({ extname: 'hbs' }))
 server.set('view engine', 'hbs')
 server.set('views', __dirname + '/views')
+
+const profile = require('./data/data.json')
+console.log(profile)
 
 // Your routes/router(s) should go here
 
