@@ -1,7 +1,6 @@
 const express = require('express')
 const hbs = require('express-handlebars')
 const fs = require('node:fs/promises')
-const path = require('path')
 // const router = express.Router()
 
 const server = express()
