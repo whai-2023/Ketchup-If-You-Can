@@ -1,32 +1,40 @@
 {
-  "puppies": [
+  "people": [
     {
       "id": 1,
-      "name": "Fido",
-      "owner": "Fred",
-      "image": "/images/baby1.jpg",
-      "breed": "Labrador"
+      "name": "Scott",
+      "question 1": "Dachshund because they are so cute and my dog is a dachshund also.",
+      "question 2": "I would swap places with my uncle who lives in Canada. I've always wanted to visit there once.",
+      "question 3": "Never been to a concert.",
+      "question 4": "1) Find a job. 2) Find a girlfriend. 3) Work out (GYM!). 4) Travel around New Zealand after the course finishes. 5) Travel UK and watch football games.",
+      "image": "/images/baby1.jpg"
     },
     {
       "id": 2,
-      "name": "Coco",
-      "owner": "Chloe",
-      "image": "/images/baby2.jpg",
-      "breed": "Labrador"
+      "name": "Storm",
+      "question 1": "Collie - cute, energetic and playful",
+      "question 2": "Someone completely reversed in every way, ie different gender, political stance etc. Get to know what it's like being them and knowing who they know and what their life is like.",
+      "question 3": "Sharon Van Etton",
+      "question 4": "1) Smash screens and cars with a baseball. 2) Swim in phosphorescence with whales. 3) Intense all out paintball game. 4) Be in Mexico for a dia de los muertos. 5) Understand all my feelings lol.",
+      "image": "/images/baby2.jpg"
     },
     {
       "id": 3,
-      "name": "Magnum",
-      "owner": "Michael",
-      "image": "/images/baby3.jpg",
-      "breed": "Rottweiler"
+      "name": "William",
+      "question 1": "Corgi because they look like a loaf of bread. Not very atheletic either, just like me.",
+      "question 2": "I'm happy with where I am at the moment.",
+      "question 3": "Wilkonson (DnB artist)",
+      "question 4": "1) Travel to Japan and Korea. 2) Go to tomorrowland. 3) Snowboard at a ski resort somewhere in Switzerland. 4) See the Nothern Lights. 5) Make a lot of money to do these things.",
+      "image": "/images/baby3.jpg"
     },
     {
       "id": 4,
-      "name": "Sadie",
-      "owner": "Sam",
-      "image": "/images/baby4.jpg",
-      "breed": "Labrador"
+      "name": "Dillon",
+      "question 1": "I would be a German Shephard because I have always loved those breeds",
+      "question 2": "I would trade places with Jay Z and be happily married to beyonce for a day",
+      "question 3": "One Republic was amazing to see live",
+      "question 4": "1) See the Northern Lights. 2) Travel around Europe and Asia. 3) Skydive. 4) Go to a Kendrick Lamar and/or J.Cole concert. 5) Experience a 5 Star Restaurant.",
+      "image": "/images/baby4.jpg"
     }
   ]
 }
