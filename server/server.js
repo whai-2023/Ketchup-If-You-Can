@@ -15,6 +15,7 @@ server.engine('hbs', hbs.engine({ extname: 'hbs' }))
 server.set('view engine', 'hbs')
 server.set('views', __dirname + '/views')
 
+const profile = require('./data/data.json')
 // Your routes/router(s) should go here
 
 server.get('/', (req, res) => {
@@ -29,10 +30,10 @@ server.get('/', (req, res) => {
     })
 })
 
-server.get('/details/:id', (req, res) => {
-  const profileID = req.params.id
-  const profile = data.find((element) => element.id == profileID)
-  res.render('details', profile)
+server.get('/people/:id', (req, res) => {
+  const peopleID = req.params.id
+  const person = profile.people.find((element) => element.id == peopleID)
+  res.render('people', { person })
 })
 
 // need to make a route to profile page
