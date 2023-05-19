@@ -16,6 +16,8 @@ server.set('view engine', 'hbs')
 server.set('views', __dirname + '/views')
 
 const profile = require('./data/data.json')
+console.log(profile)
+
 // Your routes/router(s) should go here
 
 server.get('/', (req, res) => {
