@@ -29,6 +29,12 @@ server.get('/', (req, res) => {
     })
 })
 
+server.get('/details/:id', (req, res) => {
+  const profileID = req.params.id
+  const profile = data.find((element) => element.id == profileID)
+  res.render('details', profile)
+})
+
 // need to make a route to profile page
 
 module.exports = server
